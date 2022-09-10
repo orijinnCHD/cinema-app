@@ -1,0 +1,17 @@
+.catalogue-container{
+    background:$blue-1;
+    height:100%;
+
+    width:90%;
+    margin: 0 auto;
+    padding:20px 20px;
+    border-radius:40px;
+    ul{
+        display:flex;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap:50px;
+        
+    }
+}

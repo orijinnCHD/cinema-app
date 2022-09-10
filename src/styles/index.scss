@@ -1,3 +1,7 @@
-body{
-    background-color: red;
-}
+@import "./settings.scss";
+@import "./components/header";
+@import "./components/logo";
+@import "./components/navigation";
+@import "./components/search";
+@import "./components/catalogue";
+@import "./components/movie";

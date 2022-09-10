@@ -1,0 +1,51 @@
+// font
+@font-face {
+    font-family: "font-1";
+    src: url(../fonts/Dongle-Regular.ttf);
+}
+
+@font-face {
+    font-family: "font-2";
+    src: url(../fonts/Dongle-Light.ttf);
+}
+
+$font-1:"font-1",sans-serif;
+$font-2:"font-2",sans-serif;
+
+
+//color
+
+$black-1:rgb(14, 14, 14);
+$black-2:rgb(27, 27, 27);
+$white-1:rgb(249, 249, 249);
+$white-2:rgb(236, 236, 236);
+$violet-1:rgb(51, 30, 125);
+$violet-2:rgb(103, 96, 246);
+
+$red-1:rgb(239, 56, 56);
+$yellow-1:rgb(250, 231, 110);
+$blue-1:rgb(7, 13, 44);
+$blue-2:rgb(33, 33, 65);
+$blue-3:rgb(83, 112, 230);
+$grey-1:rgb(47, 45, 69);
+$grey-2:rgb(206, 204, 205);
+
+
+// init
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+// mixin
+
+
+
+body{
+    background: $blue-2;
+    font-family: $font-1,sans-serif;
+}
+
+li{
+    list-style-type: none;
+}
