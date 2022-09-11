@@ -6,7 +6,9 @@ const Favorite = () => {
     return (
         <div>
             <Header/>
-            <Catalogue/>
+            <ul className="catalogue-container">
+                
+            </ul>
         </div>
     );
 };

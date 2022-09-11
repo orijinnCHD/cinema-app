@@ -1,9 +1,9 @@
 .movie-container{
     background:$violet-2;
-    max-width:200px;
+    width:200px;
     border-radius: 20px;
-    height:500px;
-
+    height:550px;
+    margin: 0 10px 50px;
     position:relative;
     
     img{
@@ -11,8 +11,9 @@
         display:flex;
         padding:20px 0 10px;
         // width:150px;
-        width:80%;
-        margin: 0 auto;
+         width:80%;
+        height:250px;
+        margin: 0 auto ;
         border-radius: 40px;
         
          object-fit: cover;

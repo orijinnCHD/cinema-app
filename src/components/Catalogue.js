@@ -3,21 +3,11 @@ import Movie from './Movie';
 
 const Catalogue = () => {
     return (
-        <div className="catalogue-container">
-            <ul >
-                <Movie/>
-                <Movie/>
-                <Movie/>
-                <Movie/>
-                <Movie/>
-                <Movie/>
-                <Movie/>
-                <Movie/>
-                <Movie/>
-                <Movie/>
-                
-             </ul>
-        </div>
+
+        <ul className="catalogue-container" >
+               
+        </ul>
+
         
 
        
