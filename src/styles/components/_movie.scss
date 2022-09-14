@@ -1,6 +1,6 @@
 .movie-container{
     background:$violet-2;
-    width:200px;
+    width:250px;
     border-radius: 20px;
     height:550px;
     margin: 0 10px 50px;
@@ -30,8 +30,14 @@
         line-height: 18px;
     }
 
+
+    h4{
+        color:$white-1;
+    }
+
+
     span{
-        color:grey-1;
+       
     }
 
     p{
@@ -46,7 +52,7 @@
         overflow:hidden;
     }
 
-    #btn-fav{
+    .btn-fav{
         position:absolute;
 
         top:96%;
@@ -75,8 +81,36 @@
             height:55px;
             font-size: 1.2rem;
             cursor: pointer;
+            background:$grey-2;
         }
 
+    }
+
+    #remove{
+        background:rgb(8, 131, 8);
+    }
+
+    .tag-container{
+
+        display:flex;
+        justify-content: left;
+        flex-wrap: wrap;
+        align-items: center;
+        font-family: $font-1;
+        margin:5px 0;
+        color:$white-1;
+
+        font-size: 0.75rem;
+
+        
+        li{
+            background:rgb(152, 24, 237);
+            border-radius:20px;
+            margin: 5px 5px 5px 0px;
+            padding:0 5px;
+           
+           
+        }
     }
 
     
